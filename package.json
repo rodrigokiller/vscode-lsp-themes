@@ -1,0 +1,51 @@
+{
+	"name": "lsp-theme",
+	"displayName": "Tema LSP",
+	"description": "Tema LSP para Visual Studio Code",
+	"version": "0.1.0",
+	"publisher": "Killer",
+	"galleryBanner": {
+		"color": "#476e83",
+		"theme": "light"
+	},
+	"engines": {
+		"vscode": "^1.15.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"lsp",
+		"tema"
+	],
+	"icon": "images/icon.png",
+	"license": "SEE LICENSE IN LICENSE.md",
+	"homepage": "https://github.com/rodrigokiller/vscode-lsp-themes/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rodrigokiller/vscode-lsp-themes.git"
+	},
+	"bugs": {
+		"url": "https://github.com/rodrigokiller/vscode-lsp-themes/issues"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "LSP (Clássico)",
+				"uiTheme": "vs",
+				"path": "./themes/lsp-default-color-theme.json"
+			},
+			{
+				"label": "LSP (Dark)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/lsp-dark-color-theme.json"
+			},
+			{
+				"label": "LSP (Full Dark)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/lsp-fulldark-color-theme.json"
+			}
+		]
+	}
+}
