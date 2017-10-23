@@ -4,10 +4,6 @@
 	"description": "Tema LSP para Visual Studio Code",
 	"version": "0.1.0",
 	"publisher": "Killer",
-	"galleryBanner": {
-		"color": "#476e83",
-		"theme": "light"
-	},
 	"engines": {
 		"vscode": "^1.15.0"
 	},
